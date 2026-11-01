@@ -1,0 +1,6 @@
+/.run/
+/models/
+/build*/
+*.ninfer
+*.log
+*.tmp

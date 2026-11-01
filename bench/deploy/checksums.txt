@@ -1,0 +1,14 @@
+# Public deployment package checksums (2026-11-01)
+# The model and compiled executable are not distributed in this repository.
+eec39564993d6e9c7d5e383382a760f093465c9d163ec9a1bd6b80199514bf3e  qwen3_8_27b.ninfer
+adfef5eaa36245641d07990eba1e90c45e572cdd3aa84b9c4a38934c04ef7f67  ninfer-serve
+79b7e91c9bec43a76e4bf4c07e00e7de5b2ffed7161d020660f4610b221cdec2  README.md
+c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4  LICENSE
+5a81b43871357673f6eef86c8e6fdd64410fe22eefcf363c34d11cf56f6c313f  docs/4090-双实例智能体部署指南.md
+98f0f947ef0f7dff3db45dfc43ae91d84555d73f7e8dfebcefb17562242009ca  bench/deploy/4090-from-origin.patch
+37ba58034366bd2b7bfa9cfbd990d90d130cfbc93d8610bf4c3ffbfd37707207  bench/deploy/4090-start-scripts.tar.gz
+99c8a7f6a1d5a36e50b1e5f9e066951be143ee434dd4ef1d08ed4c941341061b  scripts/start-ninfer-8003.sh
+0c2b8409bda618f709a8ff4a56efb25ff14d6154a79f3c1b330156bfc55f7341  scripts/start-ninfer-8003-fast.sh
+3d95a7f16ff9c1f597c820c035cd7fc928501d25b13d716a72b8083db5a3d627  scripts/start-ninfer-8003-pure.sh
+332b6472cb7e258c0a8c68eaa8a0c5a0dc53002635626f0d2b1eb6eea8ea69d9  scripts/start-ninfer-8005-fast.sh
+32acf5848dd31644a8e7c6163dc4c4accb168282219e3e5db4f9b5f5bf6bf7e5  scripts/start-ninfer-8005-pure.sh
