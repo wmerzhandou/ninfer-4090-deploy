@@ -1,6 +1,8 @@
 /.run/
 /models/
-/build*/
+/build/
+/build-*/
 *.ninfer
 *.log
 *.tmp
+.DS_Store

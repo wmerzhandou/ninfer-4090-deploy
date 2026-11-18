@@ -1,0 +1,15 @@
+[Unit]
+Description=NInfer health watchdog
+After=network-online.target
+
+[Service]
+Type=simple
+Environment="NINFER_WATCH_PORTS=8003 8004 8005"
+Environment="NINFER_WATCH_INTERVAL=20"
+Environment="NINFER_WATCH_THRESHOLD=3"
+ExecStart=__INSTALL_DIR__/scripts/health-watchdog.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,21 @@
+[Unit]
+Description=NInfer Qwen3.8-27B (%i)
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=600
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=__INSTALL_DIR__
+EnvironmentFile=-__INSTALL_DIR__/config/%i.env
+ExecStart=__INSTALL_DIR__/scripts/start-ninfer.sh --foreground
+Restart=on-failure
+RestartSec=30
+TimeoutStartSec=600
+TimeoutStopSec=120
+KillMode=mixed
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=default.target

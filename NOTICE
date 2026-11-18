@@ -1,0 +1,21 @@
+NInfer RTX 4090 deployment overlay
+
+This repository contains deployment scripts, documentation, and a source patch
+for the NInfer engine. It does not contain model weights or compiled binaries.
+Model weights remain subject to the Qwen model card and the artifact
+publisher's terms; they are not redistributed here.
+
+Upstream projects and their copyright holders:
+
+  sergiuszm/ninfer-4090
+  Don-Chad/ninfer-3090
+  Neroued/ninfer
+
+The patched source includes a trimmed source snapshot of XGrammar:
+
+  XGrammar
+  Copyright (c) 2024 by XGrammar Contributors
+  https://github.com/mlc-ai/xgrammar
+  Apache License 2.0
+
+See LICENSE, licenses/xgrammar-LICENSE, and licenses/xgrammar-NOTICE.

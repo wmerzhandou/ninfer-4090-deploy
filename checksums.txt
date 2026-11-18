@@ -1,0 +1,6 @@
+# NInfer RTX 4090 deployment package
+# 2026.11.18-stable
+#
+# Model and compiled binary are not distributed in this repository.
+eec39564993d6e9c7d5e383382a760f093465c9d163ec9a1bd6b80199514bf3e  models/qwen3_8_27b.ninfer
+8670e16dc973106f1f9ee7d928e80d1234ea2006425624b237f5f7214bd76861  patches/ninfer-4090-stable.patch
