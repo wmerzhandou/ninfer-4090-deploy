@@ -40,7 +40,7 @@ git apply --check --reverse /path/to/ninfer-4090-deploy/patches/ninfer-4090-stab
 - 多 lane / MTP3 的调度和采样；
 - KV 分页 entitlement 预留；
 - worker 异常原地恢复和错误日志；
-- 相关测试与 serving 文档；
+- 相关测试；
 - 裁剪后的 XGrammar 源码（Apache-2.0）。
 
 补丁不包含：
